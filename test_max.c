@@ -13,11 +13,11 @@ int main(void) {
   printf("Max: passed\n");
   }
 int max(int arr[], int len){
-  int max;
-  max = arr[0];
+  int maxi;
+  maxi = arr[0];
   for(int j=0; j<len; j++){
-  if(arr[j]>max){
-  max = arr[j];}
+  if(arr[j]>max)i{
+  maxi = arr[j];}
   }
-  return max;
+  return maxi;
   }
