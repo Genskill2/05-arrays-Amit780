@@ -28,7 +28,8 @@ int mode(int arr[], int len){
   max = ar2[0];
   for(int h = 0; h< len; h++){
   if(ar2[h]> max){
-  max = ar2[h];}
+  max = ar2[h];
+  }
   }
   for(p =0; p<len; p++){
   if(max == ar2[p])
