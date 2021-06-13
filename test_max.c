@@ -15,7 +15,7 @@ int main(void) {
 int max(int arr[], int len){
   int maximum = arr[0];
   for(int i= 0; i< len; i++){
-    if(arr[i]> maximunm
+    if(arr[i]> maximunm)
       maximum = arr[i];
   }
   return maximum;
