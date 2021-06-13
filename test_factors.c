@@ -21,3 +21,29 @@ int main(void) {
   assert (ret[1] == 13);
   printf("Factors: passed\n");
 }
+int factors(int num, int arr[]){
+int cpy = num;
+int cnt = 0;
+int cnt1 =0;
+for(int i = 2; i<num/2; i++){
+if(num%i ==0){
+for(int j=2; j<=i; j++){
+if(i%j==0)
+cnt+= 1;
+}
+if(cnt ==1){
+while(cpy%i ==0){
+arr[cnt1] = i;
+cpy/= i;
+cnt1+= 1;
+}
+cpy = num;}
+
+cnt = 0;
+}
+else
+continue;}
+
+return cnt1;
+}
+
