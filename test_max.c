@@ -20,5 +20,3 @@ int max(int arr[], int len){
   }
   return maximum;
        }
-  
-  
