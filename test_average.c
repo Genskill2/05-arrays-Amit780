@@ -21,4 +21,3 @@ float average(int arr[], int len){
   avg = (float)sum/len;
   return avg;
 }
-    
