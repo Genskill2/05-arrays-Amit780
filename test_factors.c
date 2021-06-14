@@ -38,11 +38,9 @@ cpy/= i;
 cnt1+= 1;
 }
 cpy = num;}
-
 cnt = 0;
 }
 else
 continue;}
-
 return cnt1;
 }
